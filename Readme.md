@@ -5,10 +5,10 @@ This repository uses the github action
 to build
 [AUR packages](https://aur.archlinux.org/)
 and provide the built packages as
-[release](https://github.com/kopp/aurci2/releases/tag/aurci2).
+[release](https://github.com/z370q/aurci2/releases/tag/aurci2).
 
 Build status:
-![build status](https://github.com/kopp/aurci2/actions/workflows/build_repository.yaml/badge.svg?branch=master)
+![build status](https://github.com/z370q/aurci2/actions/workflows/build_repository.yaml/badge.svg?branch=master)
 
 
 # Use this Repository with `pacman`
@@ -18,7 +18,7 @@ You can use these packages by adding the following to your `/etc/pacman.conf`:
 ```
 [aurci2]
 SigLevel = Optional TrustAll
-Server = https://github.com/kopp/aurci2/releases/download/aurci2
+Server = https://github.com/z370q/aurci2/releases/download/aurci2
 ```
 
 
