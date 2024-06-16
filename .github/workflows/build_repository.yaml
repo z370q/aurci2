@@ -20,9 +20,11 @@ jobs:
       uses: kopp/build-aur-packages@v1
       with:
         packages: >
-          cnijfilter-ip2800series
+          ungoogled-chromium
           nchat
           meli
+          zoom
+          clash-meta
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
