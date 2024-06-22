@@ -23,8 +23,7 @@ jobs:
           ungoogled-chromium
           nchat
           meli
-          zoom
-          clash-meta
+          zoom 
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
