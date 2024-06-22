@@ -20,10 +20,8 @@ jobs:
       uses: kopp/build-aur-packages@v1
       with:
         packages: >
-          ungoogled-chromium
           nchat
-          meli
-          zoom 
+          meli 
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
